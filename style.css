@@ -130,7 +130,7 @@ body {
 }
 .forms .sectionHead span {
   padding: .75em .5em;
-  background: #ff6d00;
+  background: #633309;
   display: inline-block;
   color: white;
   border-radius: 50%;
@@ -339,5 +339,21 @@ ul#billingInfo {
   }
   .forms ul li input, .receipt ul li input {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 80px) {
+  .cs-it-RedirectModal .cs-it-RedirectModal-title p {
+    font-size: 1px;
+  }
+
+  .cs-it-RedirectModal .cs-it-RedirectModal-text {
+    max-height: 48px;
+  }
+}
+
+@media (max-width: 40px) {
+  .cs-it-RedirectModal .cs-it-RedirectModal-title p {
+    font-size: 14px;
   }
 }
